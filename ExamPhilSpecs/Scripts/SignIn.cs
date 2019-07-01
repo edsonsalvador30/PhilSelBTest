@@ -21,7 +21,7 @@ namespace ExamPhilSpecs.Scripts
    
             driver.FindElement(By.XPath("//a[@class='login']")).Click();
 
-            driver.FindElement(By.XPath("//input[@id='email_create']")).SendKeys("testessa_ba3@test.com");
+            driver.FindElement(By.XPath("//input[@id='email_create']")).SendKeys("testessa_bax@test.com");
 
             driver.FindElement(By.XPath("//form[@id='create-account_form']//span[1]")).Click();
                                  
